@@ -1,0 +1,388 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4AA34AF71E35BE7D00CC8D4C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA34AF61E35BE7D00CC8D4C /* main.m */; };
+		4AA34AFA1E35BE7D00CC8D4C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA34AF91E35BE7D00CC8D4C /* AppDelegate.m */; };
+		4AA34AFD1E35BE7D00CC8D4C /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA34AFC1E35BE7D00CC8D4C /* FirstViewController.m */; };
+		4AA34B001E35BE7E00CC8D4C /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA34AFF1E35BE7E00CC8D4C /* SecondViewController.m */; };
+		4AA34B031E35BE7E00CC8D4C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4AA34B011E35BE7E00CC8D4C /* Main.storyboard */; };
+		4AA34B051E35BE7E00CC8D4C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4AA34B041E35BE7E00CC8D4C /* Assets.xcassets */; };
+		4AA34B081E35BE7E00CC8D4C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4AA34B061E35BE7E00CC8D4C /* LaunchScreen.storyboard */; };
+		4AA34B111E35C08D00CC8D4C /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA34B101E35C08D00CC8D4C /* ThirdViewController.m */; };
+		4AA34B141E35E1E400CC8D4C /* TabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA34B131E35E1E300CC8D4C /* TabBarController.m */; };
+		4AA34B171E35E4B900CC8D4C /* EnterFullscreenTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA34B161E35E4B800CC8D4C /* EnterFullscreenTransition.m */; };
+		4AA34B1A1E35E4CD00CC8D4C /* ExitFullscreenTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA34B191E35E4CD00CC8D4C /* ExitFullscreenTransition.m */; };
+		4AA34B1D1E35E4E800CC8D4C /* FullscreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA34B1C1E35E4E800CC8D4C /* FullscreenViewController.m */; };
+		4AA34B201E35F5DF00CC8D4C /* MovieView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA34B1F1E35F5DF00CC8D4C /* MovieView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4AA34AF21E35BE7D00CC8D4C /* XSQLandscapeFullscreenDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XSQLandscapeFullscreenDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4AA34AF61E35BE7D00CC8D4C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4AA34AF81E35BE7D00CC8D4C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4AA34AF91E35BE7D00CC8D4C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4AA34AFB1E35BE7D00CC8D4C /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		4AA34AFC1E35BE7D00CC8D4C /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		4AA34AFE1E35BE7D00CC8D4C /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		4AA34AFF1E35BE7E00CC8D4C /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		4AA34B021E35BE7E00CC8D4C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4AA34B041E35BE7E00CC8D4C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4AA34B071E35BE7E00CC8D4C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4AA34B091E35BE7E00CC8D4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4AA34B0F1E35C08D00CC8D4C /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		4AA34B101E35C08D00CC8D4C /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
+		4AA34B121E35E1E300CC8D4C /* TabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabBarController.h; sourceTree = "<group>"; };
+		4AA34B131E35E1E300CC8D4C /* TabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabBarController.m; sourceTree = "<group>"; };
+		4AA34B151E35E4B800CC8D4C /* EnterFullscreenTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EnterFullscreenTransition.h; sourceTree = "<group>"; };
+		4AA34B161E35E4B800CC8D4C /* EnterFullscreenTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EnterFullscreenTransition.m; sourceTree = "<group>"; };
+		4AA34B181E35E4CD00CC8D4C /* ExitFullscreenTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExitFullscreenTransition.h; sourceTree = "<group>"; };
+		4AA34B191E35E4CD00CC8D4C /* ExitFullscreenTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExitFullscreenTransition.m; sourceTree = "<group>"; };
+		4AA34B1B1E35E4E800CC8D4C /* FullscreenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FullscreenViewController.h; sourceTree = "<group>"; };
+		4AA34B1C1E35E4E800CC8D4C /* FullscreenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FullscreenViewController.m; sourceTree = "<group>"; };
+		4AA34B1E1E35F5DF00CC8D4C /* MovieView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MovieView.h; sourceTree = "<group>"; };
+		4AA34B1F1E35F5DF00CC8D4C /* MovieView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MovieView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4AA34AEF1E35BE7D00CC8D4C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4AA34AE91E35BE7D00CC8D4C = {
+			isa = PBXGroup;
+			children = (
+				4AA34AF41E35BE7D00CC8D4C /* XSQLandscapeFullscreenDemo */,
+				4AA34AF31E35BE7D00CC8D4C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4AA34AF31E35BE7D00CC8D4C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4AA34AF21E35BE7D00CC8D4C /* XSQLandscapeFullscreenDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4AA34AF41E35BE7D00CC8D4C /* XSQLandscapeFullscreenDemo */ = {
+			isa = PBXGroup;
+			children = (
+				4AA34B231E373A9100CC8D4C /* Third */,
+				4AA34B221E373A7600CC8D4C /* Second */,
+				4AA34B211E373A6700CC8D4C /* First */,
+				4AA34AF81E35BE7D00CC8D4C /* AppDelegate.h */,
+				4AA34AF91E35BE7D00CC8D4C /* AppDelegate.m */,
+				4AA34B011E35BE7E00CC8D4C /* Main.storyboard */,
+				4AA34B041E35BE7E00CC8D4C /* Assets.xcassets */,
+				4AA34B061E35BE7E00CC8D4C /* LaunchScreen.storyboard */,
+				4AA34B091E35BE7E00CC8D4C /* Info.plist */,
+				4AA34AF51E35BE7D00CC8D4C /* Supporting Files */,
+				4AA34B121E35E1E300CC8D4C /* TabBarController.h */,
+				4AA34B131E35E1E300CC8D4C /* TabBarController.m */,
+				4AA34B1E1E35F5DF00CC8D4C /* MovieView.h */,
+				4AA34B1F1E35F5DF00CC8D4C /* MovieView.m */,
+			);
+			path = XSQLandscapeFullscreenDemo;
+			sourceTree = "<group>";
+		};
+		4AA34AF51E35BE7D00CC8D4C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4AA34AF61E35BE7D00CC8D4C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4AA34B211E373A6700CC8D4C /* First */ = {
+			isa = PBXGroup;
+			children = (
+				4AA34AFB1E35BE7D00CC8D4C /* FirstViewController.h */,
+				4AA34AFC1E35BE7D00CC8D4C /* FirstViewController.m */,
+			);
+			name = First;
+			sourceTree = "<group>";
+		};
+		4AA34B221E373A7600CC8D4C /* Second */ = {
+			isa = PBXGroup;
+			children = (
+				4AA34AFE1E35BE7D00CC8D4C /* SecondViewController.h */,
+				4AA34AFF1E35BE7E00CC8D4C /* SecondViewController.m */,
+				4AA34B151E35E4B800CC8D4C /* EnterFullscreenTransition.h */,
+				4AA34B161E35E4B800CC8D4C /* EnterFullscreenTransition.m */,
+				4AA34B181E35E4CD00CC8D4C /* ExitFullscreenTransition.h */,
+				4AA34B191E35E4CD00CC8D4C /* ExitFullscreenTransition.m */,
+				4AA34B1B1E35E4E800CC8D4C /* FullscreenViewController.h */,
+				4AA34B1C1E35E4E800CC8D4C /* FullscreenViewController.m */,
+			);
+			name = Second;
+			sourceTree = "<group>";
+		};
+		4AA34B231E373A9100CC8D4C /* Third */ = {
+			isa = PBXGroup;
+			children = (
+				4AA34B0F1E35C08D00CC8D4C /* ThirdViewController.h */,
+				4AA34B101E35C08D00CC8D4C /* ThirdViewController.m */,
+			);
+			name = Third;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4AA34AF11E35BE7D00CC8D4C /* XSQLandscapeFullscreenDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4AA34B0C1E35BE7E00CC8D4C /* Build configuration list for PBXNativeTarget "XSQLandscapeFullscreenDemo" */;
+			buildPhases = (
+				4AA34AEE1E35BE7D00CC8D4C /* Sources */,
+				4AA34AEF1E35BE7D00CC8D4C /* Frameworks */,
+				4AA34AF01E35BE7D00CC8D4C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XSQLandscapeFullscreenDemo;
+			productName = XSQLandscapeFullscreenDemo;
+			productReference = 4AA34AF21E35BE7D00CC8D4C /* XSQLandscapeFullscreenDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4AA34AEA1E35BE7D00CC8D4C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = XSQ;
+				TargetAttributes = {
+					4AA34AF11E35BE7D00CC8D4C = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = C2TZ8VUVX6;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 4AA34AED1E35BE7D00CC8D4C /* Build configuration list for PBXProject "XSQLandscapeFullscreenDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4AA34AE91E35BE7D00CC8D4C;
+			productRefGroup = 4AA34AF31E35BE7D00CC8D4C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4AA34AF11E35BE7D00CC8D4C /* XSQLandscapeFullscreenDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4AA34AF01E35BE7D00CC8D4C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AA34B081E35BE7E00CC8D4C /* LaunchScreen.storyboard in Resources */,
+				4AA34B051E35BE7E00CC8D4C /* Assets.xcassets in Resources */,
+				4AA34B031E35BE7E00CC8D4C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4AA34AEE1E35BE7D00CC8D4C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AA34B001E35BE7E00CC8D4C /* SecondViewController.m in Sources */,
+				4AA34B201E35F5DF00CC8D4C /* MovieView.m in Sources */,
+				4AA34B111E35C08D00CC8D4C /* ThirdViewController.m in Sources */,
+				4AA34AFA1E35BE7D00CC8D4C /* AppDelegate.m in Sources */,
+				4AA34B171E35E4B900CC8D4C /* EnterFullscreenTransition.m in Sources */,
+				4AA34B141E35E1E400CC8D4C /* TabBarController.m in Sources */,
+				4AA34B1A1E35E4CD00CC8D4C /* ExitFullscreenTransition.m in Sources */,
+				4AA34AFD1E35BE7D00CC8D4C /* FirstViewController.m in Sources */,
+				4AA34B1D1E35E4E800CC8D4C /* FullscreenViewController.m in Sources */,
+				4AA34AF71E35BE7D00CC8D4C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4AA34B011E35BE7E00CC8D4C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4AA34B021E35BE7E00CC8D4C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4AA34B061E35BE7E00CC8D4C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4AA34B071E35BE7E00CC8D4C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4AA34B0A1E35BE7E00CC8D4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4AA34B0B1E35BE7E00CC8D4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4AA34B0D1E35BE7E00CC8D4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = C2TZ8VUVX6;
+				INFOPLIST_FILE = XSQLandscapeFullscreenDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xsq.XSQLandscapeFullscreenDemo2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4AA34B0E1E35BE7E00CC8D4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = C2TZ8VUVX6;
+				INFOPLIST_FILE = XSQLandscapeFullscreenDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xsq.XSQLandscapeFullscreenDemo2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4AA34AED1E35BE7D00CC8D4C /* Build configuration list for PBXProject "XSQLandscapeFullscreenDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4AA34B0A1E35BE7E00CC8D4C /* Debug */,
+				4AA34B0B1E35BE7E00CC8D4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4AA34B0C1E35BE7E00CC8D4C /* Build configuration list for PBXNativeTarget "XSQLandscapeFullscreenDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4AA34B0D1E35BE7E00CC8D4C /* Debug */,
+				4AA34B0E1E35BE7E00CC8D4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4AA34AEA1E35BE7D00CC8D4C /* Project object */;
+}
